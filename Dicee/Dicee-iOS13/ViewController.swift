@@ -17,7 +17,11 @@ class ViewController: UIViewController {
         //WHO          WHAT    VALUE
         diceImageView1.image = UIImage(named: "DiceSix")
         diceImageView2.image = UIImage(named: "DiceTwo")
+        
     }
+    
+    var leftDiceNumber = 1
+    var rightDiceNumber = 5
     
     @IBAction func rollButtonPressed(_ sender: UIButton) {
     
